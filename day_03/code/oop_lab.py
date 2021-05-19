@@ -1,3 +1,4 @@
+# LAB #1 [20 mins]
 class employee:
 
 
@@ -33,6 +34,13 @@ class employee:
         pass
 # -------------------------------------------------------------------------
 
+# LAB #2 Addtional work [15 mins]
+
+'''
+Extend the employee class to add a function to hike the salary
+by a given percentage
+'''
+
 # Test Code
 
 if __name__ == "__main__":
@@ -62,4 +70,4 @@ if __name__ == "__main__":
     e1.printstatus()
     e2.printstatus()
 
-
+    # Add the test code for extended employee class
