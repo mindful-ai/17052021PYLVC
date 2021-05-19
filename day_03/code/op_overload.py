@@ -3,23 +3,24 @@ class complex(object):
         self.real = x
         self.img = y
 
+    def __repr__(self):
+        return str(self.real) + " + j" + str(self.img)
     
     def __str__(self):
         return str(self.real) + " + j" + str(self.img)
     
-
     # c1 complex(3, 4) => 3 + j4
     # c2 complex(4, 5) => 4 + j5
     # c1 + c2 X no allowed
     # Overload __add__ to make it happen
     # c3 = c1 + c2 => self -> c1, other -> c2
-
-    
+   
     def __add__(self, other):   
         newreal = self.real + other.real
         newimg = self.img + other.img
         return complex(newreal, newimg)
 
+    
     def __sub__(self, other):   
         newreal = self.real - other.real
         newimg = self.img - other.img

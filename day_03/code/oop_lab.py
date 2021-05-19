@@ -19,7 +19,7 @@ class employee:
         pass
 
     # setter
-    def setsalary(self, empsal):
+    def setsalary(self, empsal): # '100000 USD'
         pass
 
     # getter
